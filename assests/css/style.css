@@ -40,12 +40,6 @@ h2 {
     margin: 0px auto 0px 420px;
 }
 
-.pagebody {
-    clear: both;
-    width: 960px;
-    overflow: scroll;
-}
-
 .contentcontainer {
     background-color: #ffffff;
     width: 960px;
@@ -138,6 +132,54 @@ a:visited {
 
 .portfoliospace {
     background-color: #ffffff;
-    padding: 0px 10px 10px 10px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.row {
+    height: 200px;
+    width: 700px;
+    /* margin: 25px 25px 25px 0px; */
+}
+
+.columnleft {
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+    float: left;
+}
+
+.columnright {
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+    float: right;
+}
+
+#portfolioimg {
+    height: 200px;
+    width: 300px;
+}
+
+.portfolioproject {
+    height: 200px;
+    width: 300px;
+}
+
+.projectstripe {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    opacity: .9;
+    height: 75px;
+    position: relative;
+    top: 100px;
+    margin: 0px -5px 0px 5px;
+}
+
+.projectname {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    bottom: 75px;
 }
